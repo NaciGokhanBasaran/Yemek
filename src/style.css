@@ -193,16 +193,17 @@ Navbar 1
   width: 70px;
   height: 50px;
   border: none;
-  background-color: #e01d1d;
-  color: #000000;
+
   font-size: xxx-large;
   transition: 1s;
-}
-.card-num-button:hover {
   background-color: #000000;
   color: white;
+  opacity: 0.6;
+  border-radius: 10px;
 }
-
+.card-num-button:hover {
+  opacity: 1;
+}
 .Card {
   width: 300px;
   height: 450px;
